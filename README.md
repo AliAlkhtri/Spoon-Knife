@@ -1,4 +1,4 @@
-### Well hello there!
+ Well hello there!
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 
@@ -7,3 +7,15 @@ Creating a *fork* is producing a personal copy of someone else's project. Forks 
 After forking this repository, you can make some changes to the project, and submit [a Pull Request](https://github.com/octocat/Spoon-Knife/pulls) as practice.
 
 For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
+",
+  "contractAddress": "0x9Dca580D2c8B8e19e9d77345a5b4C2820B25b386",
+  "contractName": "HelloWorld",
+  "sourceCode": "pragma solidity ^0.7.6;\n\ncontract HelloWorld {\n    string public greet = \"Hello World!\";\n}",
+  "codeFormat": "solidity-single-file",
+  "compilerVersion": "v0.7.6+commit.7338295f",
+  "optimization": "1",
+  "optimizationRuns": "200",
+  "contractAbi": "[{\"inputs\":[],\"name\":\"greet\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"}]",
+  "evmVersion": "tangerineWhistle",
+  "viaIr": false
+}
